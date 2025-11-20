@@ -79,6 +79,7 @@ class SelectCropCompressImage {
   }
 
   // Crops Images using the image cropper package.
+  // ignore: strict_top_level_inference
   _cropImage({
     required XFile selectedImageFile,
     required int aspectRatioX,
@@ -105,6 +106,7 @@ class SelectCropCompressImage {
   }
 
   //Compresses image using the flutter image compress package.
+  // ignore: strict_top_level_inference
   _compressImage({
     required CroppedFile croppedImageFile,
     required int compressionAmount,

@@ -1,6 +1,6 @@
 name: selectcropcompressimage
 description: A new Flutter package to select, crop and compress image.
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/llKYOTOll/SelectCropCompressImage_FlutterPackage.git
 
 environment:
@@ -10,19 +10,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_image_compress: ^2.3.0
-  image_cropper: ^8.0.1
-  image_picker: ^1.1.2
+  flutter_image_compress: ^2.4.0
+  image_cropper: ^11.0.0
+  image_picker: ^1.2.1
 
 dev_dependencies:
-  flutter_lints: ^2.0.3
+  flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter packages.
-flutter: null
+# flutter: null
 # To add assets to your package, add an assets section, like this:
 # assets:
 #   - images/a_dot_burr.jpeg
